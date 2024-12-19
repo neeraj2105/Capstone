@@ -1,0 +1,286 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+}
+
+body {
+    background-color: #F9F5FA;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Top Container */
+.top-container1 {
+    width: 100%;
+    padding: 20px 50px;
+    background-color: #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.personal {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #421934;
+}
+
+.nav-links1 a {
+    text-decoration: none;
+    color: #421934;
+    margin: 0 15px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.nav-links1 a:hover {
+    color: #421934;
+}
+
+/* Main Container */
+.main-container {
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Landing Section */
+.landing1 h1 {
+    font-size: 48px;
+    color: #421934;
+    margin-bottom: 30px;
+}
+
+.photo1 img {
+    width: 100%;
+    height: auto;
+    max-width: 900px;
+    margin: 20px auto;
+    border-radius: 12px;
+    display: block;
+}
+
+/* Projects Section */
+.pink-box{
+    display: flex;
+    height: 800px;
+    width: 1344px;
+    background: rgb(253, 217, 222);
+}
+.image4{
+    height: 620px;
+    width: 720px;
+    padding-left: 50px;
+}
+.one{
+    font-size: 30px;
+    padding-top: 300px;
+    padding-left: 30px;
+}
+
+
+
+
+  
+.text-section {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+.text-section h1 {
+    font-size: 2rem;
+    color: #4a154b; 
+    margin-bottom: 10px;
+  }
+  
+.text-section p {
+    font-size: 1rem;
+    color: #555; 
+  }
+  
+.image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.image-section img {
+    max-width: 100%;
+    border-radius: 8px;
+  } 
+
+
+.gridCont {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin: 40px 0;
+}
+
+.box {
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.box img {
+    width: 100%;
+    /* border-radius: 10px; */
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.box h1 {
+    font-size: 20px;
+    margin-top: 10px;
+    color:#421934;
+}
+
+.box p {
+    font-size: 14px;
+    color: #777;
+}
+
+/* About Section */
+.about-section {
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.about-section h1 {
+    font-size: 24px;
+    color: #421934;
+    margin-bottom: 10px;
+}
+
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; 
+    background-color: white;
+}
+.contact h1 {
+    font-size: 14px; 
+    color: #421934; 
+    margin: 0;
+}
+
+.contact p {
+    padding: 8px 16px;
+    font-size: 14px;
+    color: #421934; 
+}
+
+
+/* Form Section */
+.Onbording {
+    color: #421934;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.box1 {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: 2px solid #221B2029;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #421934;
+}
+
+.button-container {
+    margin: 20px 0;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #CD3799;
+    color: #fff;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #663399;
+}
+
+.skip-link {
+    margin-left: 20px;
+    color: #CD3799;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.skip-link:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; 
+    background-color: #ffffff;
+    
+}
+
+footer h1 {
+    font-size: 14px; 
+    color: #6e5c66; 
+    margin: 0;
+}
+
+footer .follow-button {
+    padding: 8px 16px;
+    border: 1px solid #e0e0e0; 
+    border-radius: 4px; 
+    font-size: 14px;
+    color: #3e2835; 
+    background-color: #ffffff; 
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+footer .follow-button:hover {
+    background-color: #f7f7f7; 
+    border-color: #d6d6d6;  
+}
+
+@media (max-width: 768px) {
+    
+}
